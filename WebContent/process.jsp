@@ -12,7 +12,7 @@
 
 Record:<br>
 <jsp:getProperty property="name" name = "user"/>
-<jsp:setProperty property="password" name="user"/>
-<jsp:setProperty property="email" name="user"/>
+<jsp:getProperty property="password" name="user"/>
+<jsp:getProperty property="email" name="user"/>
 </body>
 </html>
